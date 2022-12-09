@@ -1,0 +1,121 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body {
+    font-family: 'Coming Soon', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right,#cee4ff, #0362fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    width: 450px;
+    background-color: #b2dcf4;
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.login-card-logo {
+    margin-bottom: 2rem;
+}
+
+.login-card-logo img {
+    width: 420px;
+    
+}
+
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+    text-align: center;
+}
+
+.login-card a {
+    text-decoration: none;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+    color: rgb(114, 0, 0);
+}
+
+.login-card-header {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.login-card-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card-form .form-item {
+    position: relative;
+}
+
+.login-card-form .form-item .form-item-icon {
+    position: absolute;
+    top: .90rem;
+    left: 1.4rem;
+    font-size: 1.3rem;
+    
+    
+}
+
+.login-card-form .form-item-other {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login-card-footer{
+    margin-top: 1.3rem;
+    font-size: calc(1rem * .8);
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"],
+.login-card input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    padding-left: calc(1rem * 3.5);
+    border-radius: 100px;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.login-card input[type="checkbox"]
+{
+    width: 10%;
+    height: 10%;
+    accent-color: black;
+}
+
+.login-card-form button {
+    background: black;
+    color: #cee4ff;
+    padding: 1rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.login-card-social {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-card-social-btns a {
+    color: black;
+}
